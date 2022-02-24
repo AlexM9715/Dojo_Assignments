@@ -1,0 +1,31 @@
+.title {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    font-family: cursive;
+    color: red;
+    text-shadow: 10px 5px 5px black;
+}
+.one {
+    background-color: lightskyblue;
+    border-radius: 40px;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+.two {
+    background-color: rgb(41, 41, 41);
+    border-radius: 40px;
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.three {
+    background-color: rgb(104, 177, 104);
+    border-radius: 40px;
+    display: flex;
+    height: 350px;
+    justify-content: space-around;
+    padding: 20px;
+}
