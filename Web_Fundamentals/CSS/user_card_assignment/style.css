@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    color: #17a2b8;
+}
+.flex-container {
+    width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+}
+.user-card {
+    width: 100%;
+    min-height: 425px;
+    background-color: white;
+}
+.user-header {
+    width: 100%;
+    height: 130px;
+    background-color: aqua;
+    padding: 20px;
+}
+.user-info {
+    padding-left: 50px;
+}
+.pic {
+    height: 150px;
+    width: 150px;
+    margin-top: 35px;
+    margin-left: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    width: 100%;
+}
+.name {
+    margin-top: 60px;
+    font-size: larger;
+}
+.location {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pin {
+    width: 18px;
+    height: auto;
+    margin-right: 15px;
+}
+.text {
+    margin-top: 25px;
+    font-size: 13pt;
+}
+.edit {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#cog {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
