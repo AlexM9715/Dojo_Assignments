@@ -40,7 +40,7 @@ a {
     color: white;
 }
 button {
-    margin-right: 400px;
+    margin-right: 200px;
     font-size: 15pt;
     background-color: rgb(173, 11, 11);
     color: white;
@@ -87,6 +87,7 @@ button {
     margin-left: 20px;
     padding-top: 75px;
     padding-bottom: 15px;
+    font-size: 18pt;
 }
 h3 {
     padding: 15px 0px;
@@ -146,5 +147,100 @@ h3 {
 .col-2 {
     flex: 1;   
     margin-left: 10px;
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(218, 218, 218);
+}
+.cr-con {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    border: 2px solid gray;
+}
+.cr-card {
+    width: 100%;
+    height: 75px;
+    background-color: #2e2e2e;
+}
+.cr-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.num {
+    color: black;
+    background-color: rgb(112, 112, 112);
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.text {
+    color: white;
+}
+.todd, .Arry {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15pt;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.picname {
+    display: flex;
+}
+#con1 {
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#chk, #x {
+    width: 60px;
+    height: auto;
+}
+.y-con {
+    width: 100%;
+    height: 350px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-top: 20px;
+}
+.y-card {
+    width: 100%;
+    height: 75px;
+    background-color: #2e2e2e;
+}
+.y-header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.num2 {
+    color: black;
+    background-color: rgb(112, 112, 112);
+    width: 90px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cnns {
+    padding-top: 20px;
+}
+.Adrien, .Anne, .Alayne, .Phil {
+    display: flex;
+    margin-left: 10px;
+    font-size: 15pt;
+}
+.y-foot {
+    width: 100%;
+    height: 30px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-end;
+    border: 2px solid gray;
+}
+.vm {
+    font-size: 15pt;
 }
