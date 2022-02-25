@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    color: red;
+}
 .nav {
     background-color: black;
     color: white;
@@ -39,7 +42,7 @@
 button {
     margin-right: 400px;
     font-size: 15pt;
-    background-color: red;
+    background-color: rgb(173, 11, 11);
     color: white;
     border-radius: 5px;
     width: 100px;
@@ -51,10 +54,95 @@ button {
 .col {
     flex: 2;
     margin-right: 10px;
-    background-color: gray;
     display: inline;
 }
-
+.user-card{
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    border: 2px solid rgb(92, 92, 92);
+}
+.user-header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(173, 11, 11);
+    padding-top: 20px;
+}
+.pic {
+    height: 125px;
+    width: 125px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 10px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic {
+    width: 100%;
+}
+.card-body {
+    margin-left: 20px;
+    padding-top: 75px;
+    padding-bottom: 15px;
+}
+h3 {
+    padding: 15px 0px;
+}
+.sum {
+    font-size: 13pt;
+}
+.edit {
+    margin-top: 20px;
+    font-size: 12pt;
+}
+#pin {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+#cog {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+.edu {
+    width: 100%;
+    min-height: 175px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid gray;
+}
+.header-2 {
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15pt;
+}
+.bc {
+    margin-left: 20px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+}
+.p1 {
+    margin: 5px 0px;
+    font: 18pt bold;
+}
+.p2 {
+    margin: 5px 0px;
+    font: 14pt lighter;
+}
+.p3 {
+    margin: 10px 0px;
+    font: 16pt bolder;
+}
 .col-2 {
     flex: 1;   
     margin-left: 10px;
